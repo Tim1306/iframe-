@@ -15,7 +15,7 @@ const itemA = {
   orgin:
     process.env.NODE_ENV === 'production'
       ? 'https://notes.jindll.com'
-      : 'http://192.168.2.110:8128',
+      : 'http://localhost:8128',
   pathName: '/itemA/',
 };
 const itemB = {
